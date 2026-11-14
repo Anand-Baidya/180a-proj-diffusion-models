@@ -5,24 +5,20 @@ DSC-180A, Fall 2026, Section D32
 This repository contains images generated from CIFAR-10 dataset with NVIDIA's pretrained EDM network, applies classifier-free guidance (CFG), and varies the guidance weight $w$ to measure FID score.
 
 ## NA-RFM Replication on CIFAR-10 (Table 2)
----
 - Paper: *Noise-Aligned RFM Steering*, Wang, Belkin and Wang, 2026 ([arXiv 2602.11395](https://arxiv.org/abs/2602.11395))
 - Replicates: Table 2, CIFAR-10 label guidance
 
 ## Setup
----
 - GPU: NVIDIA A100 on Google Colab
 - Run time: 3 to 4 hours
 - Google Drive: `class_k.pt` (Denoisers and RFM directions), scores, and generated images are saved to `MyDrive/dsc180_narfm`
 
 ## How to run
----
 1. Open the notebook in Google Colab
 2. Change runtime type to NVIDIA A100 GPU (Requires Google Colab Pro plan)
 3. Run cells in sequential order
 
-### Where each result comes from
----
+## Where each result comes from
 
 | Result | Sec. |
 |---|---|
@@ -37,7 +33,6 @@ This repository contains images generated from CIFAR-10 dataset with NVIDIA's pr
 | What matches and what does not | 5d |
 
 ## Results
----
 256 images per class, 100 sampling steps.
 
 | Setting | Our accuracy (%) | Paper's accuracy (%) | Our FID; 256 images per class | Paper's FID; 2048 images per class | Our seconds per image | Paper's seconds per batch of 16 images |
@@ -50,5 +45,4 @@ This repository contains images generated from CIFAR-10 dataset with NVIDIA's pr
 
 
 ## Acknowledgement of AI Use:
----
 I used Google Gemini to understand the important points of the EDM paper before I started reading it. 
