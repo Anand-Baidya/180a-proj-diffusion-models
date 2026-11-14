@@ -4,8 +4,9 @@ DSC-180A, Fall 2026, Section D32
 
 This repository contains images generated from CIFAR-10 dataset with NVIDIA's pretrained EDM network, applies classifier-free guidance (CFG), and varies the guidance weight $w$ to measure FID score.
 
+DSC-180A Paper. [Google Drive Link](https://drive.google.com/file/d/1I_K58wDhhJfLor01O1J7ffqeMzVvukoN/view?usp=drive_link) (Please use UCSD credentials.)
 ## NA-RFM Replication on CIFAR-10 (Table 2)
-- Paper: *Noise-Aligned RFM Steering*, Wang, Belkin and Wang, 2026 ([arXiv 2602.11395](https://arxiv.org/abs/2602.11395))
+- Original Paper: *Noise-Aligned RFM Steering*, Wang, Belkin and Wang, 2026 ([arXiv 2602.11395](https://arxiv.org/abs/2602.11395))
 - Replicates: Table 2, CIFAR-10 label guidance
 
 ## Setup
